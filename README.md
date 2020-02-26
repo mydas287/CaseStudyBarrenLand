@@ -50,5 +50,5 @@ Traverse through the entire adjacency matrix and identify the connected componen
 each connected component has.
 
 The code was written in java and JUnit test cases were written to check the validity of the code.
-Import the entire folder and run the main class. Alternatively, the Test class can be run to test each scenario
+Import the entire folder and run the MainApp class. Alternatively, the Test class can be run to test each scenario
 
