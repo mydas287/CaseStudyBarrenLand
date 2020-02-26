@@ -33,6 +33,7 @@ graph is traveresed and each component is assigned a value 0. Then the barren re
 a value 1. The graph will look somthing like this
 
 0 0 0 0 0 0 0 0 0
+
 0 0 0 0 0 1 1 1 0
 0 0 0 0 0 1 1 1 0
 0 1 1 1 0 0 0 0 0
