@@ -35,9 +35,13 @@ a value 1. The graph will look somthing like this
 0 0 0 0 0 0 0 0 0
 
 0 0 0 0 0 1 1 1 0
+
 0 0 0 0 0 1 1 1 0
+
 0 1 1 1 0 0 0 0 0
+
 0 1 1 1 0 0 1 1 1
+
 0 0 0 0 0 0 1 1 1
 
 Traverse through the entire adjacency matrix and identify the connected components. The final area is the total nodes 
