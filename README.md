@@ -1,4 +1,4 @@
-# CaseStudyBarrenLand
+# CaseStudy BarrenLand
 Find Fertile Land on a piece of land which contains rectangular barren areas
 Barren Land Analysis
 
