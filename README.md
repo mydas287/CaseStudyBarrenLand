@@ -28,6 +28,7 @@ Sample Output 2: 22816 192608
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 Solution:
+
 Create a BFS for disconnected components. Each component is going to be traversed and assigned a value (0 or 1). First the entire 
 graph is traveresed and each component is assigned a value 0. Then the barren rectangular components are identified by assigning 
 a value 1. The graph will look somthing like this
