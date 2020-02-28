@@ -75,7 +75,7 @@ public class BarrenLandAnalysis
 	/**
      * add zeros to the entire grid
      * Then identify the Barren land rectangles by adding 1 to it
-     * This helps to parse the entire grsph and identify pacthes of land which are barren
+     * This helps to parse the entire graph and identify patches of land which are barren
      * 
      * This will form an adjacency matrix like below
      * 
@@ -199,6 +199,7 @@ public class BarrenLandAnalysis
 
 				if (adjMatrix[x][y] == 0) 
 				{
+				    //add to queue all the surrounding nodes that have not been visited
 					if (x > 0)
 						addQueue(x - 1, y);
 					if (x < (WIDTH - 1))
@@ -208,7 +209,10 @@ public class BarrenLandAnalysis
 					if (y < (HEIGHT - 1))
 						addQueue(x, y + 1);
 
+					//So that it does not visit same node again
 					adjMatrix[x][y] = fertileLand;
+					
+					//keep adding fertile land to map
 					mapFertileLand.put(fertileLand, (mapFertileLand.get(fertileLand) + 1));
 				}
 			}
